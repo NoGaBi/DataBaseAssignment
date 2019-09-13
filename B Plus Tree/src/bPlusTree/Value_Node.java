@@ -1,10 +1,14 @@
 package bPlusTree;
 
+/**
+* Copyright 2018 NoGaBi
+*/
+
+
 public class Value_Node extends Node {
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 1878172095545722000L;
 	protected int value;
 		
 	public Value_Node(int key, int value) {

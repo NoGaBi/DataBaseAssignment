@@ -1,12 +1,14 @@
 package bPlusTree;
 
+/**
+* Copyright 2018 NoGaBi
+*/
+
 import java.util.Scanner;
 import java.util.StringTokenizer;
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileOutputStream;
 import java.io.FileReader;
-import java.io.Serializable;
 import java.util.ArrayList;
 
 public class BPlusTree {
@@ -18,7 +20,6 @@ public class BPlusTree {
 		/**
 		 * 
 		 */
-		private static final long serialVersionUID = -3419469406931470056L;
 
 		public UnexpectedCommandException(String message) {
 			super(message);
@@ -92,11 +93,10 @@ public class BPlusTree {
 		}
 	}
 
-	protected class Tree implements Serializable {
+	protected class Tree {
 		/**
 		 * 
 		 */
-		private static final long serialVersionUID = 5631185686434858344L;
 		private Node header;
 		private String name;
 		private int max_size;
@@ -213,7 +213,6 @@ public class BPlusTree {
 		/**
 		 * 
 		 */
-		private static final long serialVersionUID = 3000353975126723087L;
 
 		public ExecUnavailableException(String message) {
 			super(message);

@@ -1,15 +1,17 @@
 package bPlusTree;
 
-import java.io.Serializable;
+/**
+* Copyright 2018 NoGaBi
+*/
+
 import java.util.ArrayList;
 
 import bPlusTree.BPlusTree.Tree;
 
-public abstract class Node implements Serializable{
+public abstract class Node {
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = -1836158474336502026L;
 	//Node type define
 	public static final int VALUE_NODE = -1;
 	public static final int LEAF_NODE = 0;

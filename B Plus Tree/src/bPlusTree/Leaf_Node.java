@@ -1,5 +1,9 @@
 package bPlusTree;
 
+/**
+* Copyright 2018 NoGaBi
+*/
+
 import java.util.ArrayList;
 
 import bPlusTree.BPlusTree.Tree;
@@ -9,7 +13,6 @@ public class Leaf_Node extends Node {
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = -8603131676983466128L;
 
 	public Leaf_Node(int size, Tree tree) {
 		this.typeOfNode = 0;
